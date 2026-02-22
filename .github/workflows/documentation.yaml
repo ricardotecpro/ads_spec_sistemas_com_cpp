@@ -1,9 +1,13 @@
-name: Publish Documentation
+# BACKUP - Workflow antigo  
+# Use pages.yml ou mike-deploy.yml como alternativas
+name: Publish Documentation (BACKUP)
 
 on:
-  push:
-    branches:
-      - main
+  # Desabilitado - descomente para usar
+  # push:
+  #   branches:
+  #     - main
+  workflow_dispatch:
 
 permissions:
   contents: write
