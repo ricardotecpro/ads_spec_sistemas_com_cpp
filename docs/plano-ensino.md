@@ -1,15 +1,20 @@
 # Plano de Ensino 📅
 
-**Curso**: Lógica de Programação e Algoritmos com Visão Poliglota
+**Curso**: Linguagem de Programação C++ (Especialização em Sistemas com C++)
 
 ## Ementa
-1.  **Fundamentos**: Lógica, Algoritmos, Fluxogramas.
-2.  **Estruturas**: Sequencial, Condicional, Repetição.
-3.  **Dados**: Vetores, Matrizes, Coleções.
-4.  **Modularização**: Funções, Escopo.
-5.  **Multi-Linguagem**: C, Java, Python, JS, C#, Rust, Go, PHP.
+1.  **Fundamentos (Modern C++)**: Variáveis, Operadores, Fluxo de Controle e Modern Initialization.
+2.  **Estruturas e Gerenciamento de Memória**: Funções, Strings, Ponteiros, Referências e Alocação Dinâmica.
+3.  **Orientação a Objetos (POO)**: Encapsulamento, Construtores/Destrutores, Herança, Polimorfismo e Sobrecarga.
+4.  **C++ Profissional**: STL (Standard Template Library), Smart Pointers (RAII) e Sistemas de Build (CMake).
+
+## Metodologia
+*   Módulos progressivos com foco em performance e segurança.
+*   Uso de diagramas Mermaid para visualização de arquitetura e memória.
+*   TermynalJS para interação com exemplos de linha de comando.
 
 ## Avaliação
-*   Exercícios práticos por aula.
-*   4 Projetos Milestones.
-*   Quiz ao final de cada módulo.
+*   **16 Listas de Exercícios**: Níveis Fácil, Médio e Desafio.
+*   **16 Quizzes Interativos**: Validação rápida de conceitos teóricos.
+*   **16 Mini-Projetos**: Aplicação prática imediata de cada aula.
+*   **Projeto Final**: Desenvolvimento de um sistema completo seguindo padrões profissionais.

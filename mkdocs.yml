@@ -5,9 +5,6 @@ repo_name: ricardotecpro/ads_spec_sistemas_com_cpp
 theme:
   name: material
   language: pt-BR
-theme:
-  name: material
-  language: pt-BR
   favicon: assets/images/logo.png
   logo: assets/images/logo.png
   custom_dir: overrides
@@ -75,11 +72,8 @@ markdown_extensions:
 
 
 plugins:
-  - mkdocs-revealjs:
-      revealjs_config:
-        transition: slide
-        backgroundTransition: fade
-        slideNumber: true
+  - mkdocs-revealjs
+
 
   - search:
       lang: pt
@@ -154,7 +148,9 @@ nav:
   - Inicio: index.md
   - Sobre: sobre.md
   - Materiais: materiais.md
-  - Certificados: certificados.md
+  - Admin:
+    - Plano de Ensino: plano-ensino.md
+    - Roadmap: project_roadmap.md
 
   - Aulas:
     - Visão Geral: aulas/index.md
@@ -252,4 +248,4 @@ nav:
     - 'Slide 16': slides/slide-16.md
 
   - Setups:
-    - VisÃ£o Geral: setups/index.md
+    - Visão Geral: setups/index.md

@@ -1,34 +1,30 @@
-# Roadmap do Projeto: Curso de Lógica e Algoritmos
+# Roadmap do Projeto: Curso de C++ Moderno
 
-Este documento rastreia o progresso do desenvolvimento do curso de Lógica e Algoritmos.
+Este documento rastreia o progresso do desenvolvimento do curso de Especialização em C++.
 
-## ✅ Fase 1: Estruturação e Conteúdo Base (Concluído)
-- [x] Definição da ementa (16 aulas)
-- [x] Criação da estrutura de diretórios (`docs/aulas`, `docs/slides`, etc.)
-- [x] Geração de conteúdo inicial para todas as 16 aulas
-- [x] Geração de slides para todas as 16 aulas (Reveal.js)
-- [x] Criação de quizzes e exercícios básicos
+## ✅ Fase 1: Planejamento e Estruturação (Concluído)
+- [x] Definição da ementa C++ (16 aulas/módulos).
+- [x] Atualização da infraestrutura do MkDocs (Mermaid, MathJax, Termynal).
+- [x] Definição do sistema de build e organização de diretórios.
 
-## 🚧 Fase 2: Revisão e Polimento (Em Andamento)
-- [x] **Revisão Técnica**: Verificar precisão dos comandos Git.
-- [ ] **Revisão Pedagógica**: Melhorar clareza e fluxo das explicações.
-- [x] **Design e UX**:
-    - [x] Ajustar tema para cores do GitHub (Dark Mode).
-    - [x] Melhorar layout dos slides.
-    - [x] Padronizar imagens e diagramas (Mermaid).
-- [ ] **Interatividade**:
-    - [x] Adicionar quizzes interativos.
-    - [x] Criar projetos práticos.
+## ✅ Fase 2: Desenvolvimento de Conteúdo (Concluído)
+- [x] Escrita das 16 lições teóricas em PT-BR.
+- [x] Criação de 80 exercícios práticos (5 por aula).
+- [x] Elaboração de 160 questões de quiz com explicações detalhadas.
+- [x] Geração de 16 apresentações de slides (20+ slides por aula).
+- [x] Desenvolvimento de 16 guias de mini-projetos.
 
-## 🚀 Fase 3: Automação e Deploy (Concluído)
-- [x] Configuração do MkDocs (`mkdocs.yml`).
-- [x] Configuração de automação de testes.
-- [x] Testes automatizados de build e links quebrados.
+## 🚧 Fase 3: Revisão e Engenharia (Em Andamento)
+- [x] **Consistência Visual**: Padronização de ícones e alertas.
+- [ ] **Validação Técnica**: Testar exemplos de código no compilador C++20.
+- [x] **Navegação**: Atualização de todos os índices e documentação principal.
+- [ ] **Acessibilidade**: Revisão de contrastes e descrições de imagens.
 
-## 📦 Fase 4: Lançamento
-- [x] Deploy final no GitHub Pages (branch `gh-pages`).
-- [ ] Divulgação inicial.
+## 🚀 Fase 4: Automação e Entrega (Em Andamento)
+- [x] Configuração de CI/CD via GitHub Actions.
+- [ ] Build final com `--strict` para garantir zero links quebrados.
+- [ ] Publicação oficial no GitHub Pages.
 
 ---
-**Status Atual**: Fase 4 - Lançamento e Manutenção.
-**Última Atualização**: 16/02/2026
+**Status Atual**: Fase 3/4 - Revisão Final e Implantação.
+**Última Atualização**: 22/02/2026

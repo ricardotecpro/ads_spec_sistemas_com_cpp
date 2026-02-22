@@ -1,37 +1,26 @@
-# Projeto 16 - Mural Fullstack (Milestone Final) 🏆
+# Projeto Final: Sistema de Gerenciamento Integral 🎓
 
-## O Desafio 🎯
-Você chegou ao topo. É hora de conectar tudo. O projeto final é um "Mural de Recados Anônimos" (estilo Twitter antigo/Orkut).
+---
 
-**Objetivo**: Criar uma aplicação Web completa (Banco -> Back -> Front).
+### 📝 Descrição
+Este é o ápice do curso. Você deve escolher um tema (Ex: Sistema de Hotel, Gestão de Oficina, Jogo RPG) e construir uma aplicação robusta.
 
-## Arquitetura (MVC)
+### 🎯 Requisitos Técnicos Obrigatórios
+1. **Estrutura Profissional**: Uso de pastas `src`/`include` e Build com CMake.
+2. **Orientação a Objetos**: Pelo menos 3 classes integradas com Encapsulamento.
+3. **Polimorfismo**: Uso de herança e funções virtuais.
+4. **Gerenciamento de Memória**: Uso de Smart Pointers (sem `new`/`delete` manuais).
+5. **Persistência**: Salvar e carregar dados de arquivos externos.
+6. **STL**: Uso de pelo menos 2 containers (ex: `vector` e `map`) e 1 algoritmo (ex: `sort`).
 
-```mermaid
-graph LR;
-    Navegador -->|POST /salvar| ControllerPHP;
-    ControllerPHP -->|INSERT| MySQL[("Banco Recados")];
-    MySQL -->|SELECT| ControllerPHP;
-    ControllerPHP -->|HTML| Navegador;
-```
+### 📂 Entregáveis
+- Link do repositório no GitHub.
+- Arquivo `README.md` detalhado.
+- Diagrama de Classes (UML).
 
-## Requisitos Técnicos
-1.  **Banco de Dados (MySQL)**:
-    - Tabela `recados` (`id` INT AI, `texto` VARCHAR, `data_hora` DATETIME).
-2.  **Backend (PHP/Laravel/Node)**:
-    - Rota `GET /`: Lista recados.
-    - Rota `POST /recado`: Salva novo recado.
-3.  **Frontend (HTML/CSS)**:
-    - Bootstrap para ficar bonito rápido.
-    - Design responsivo (Mobile First - Aula 15!).
+---
 
-## Funcionalidades
-1.  **Postar**: Escrever mensagem e enviar.
-2.  **Feed**: Ver mensagens (Mais recentes no topo).
-3.  **Sanitização**: Proteger contra XSS (não deixar usuário postar `<script>`).
-
-## Dica de Ouro 🌟
-Comece pelo Banco de Dados. Se o banco estiver errado, tudo dá errado.
-
-## Entrega 📦
-- Link do Repositório GitHub com código fonte e script SQL.
+### 🏆 Critérios de Avaliação
+- Organização do código e lógica.
+- Ausência de bugs e vazamentos de memória.
+- Criatividade na solução do problema proposto.

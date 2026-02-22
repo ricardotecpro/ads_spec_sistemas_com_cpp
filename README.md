@@ -1,47 +1,49 @@
-# Lógica de Programação e Algoritmos 📚
+# Linguagem de Programação C++ 📚
 
-[![Build Status](https://github.com/ricardotecpro/ads_mod_02_logica_e_algoritmos/actions/workflows/ci.yml/badge.svg)](https://github.com/ricardotecpro/ads_mod_02_logica_e_algoritmos/actions)
+[![Build Status](https://github.com/ricardotecpro/ads_spec_sistemas_com_cpp/actions/workflows/ci.yml/badge.svg)](https://github.com/ricardotecpro/ads_spec_sistemas_com_cpp/actions)
 
-Curso completo de Lógica de Programação, estruturado para levar você do básico (algoritmos e pensamento computacional) até a implementação prática em diversas linguagens de mercado ("O Poliglota").
+Curso completo de **C++ Moderno**, estruturado para levar você do zero absoluto até a maestria em gerenciamento de memória, POO e bibliotecas padrão (STL).
 
-🔗 **Acesse o curso online**: [https://ricardotecpro.github.io/ads_mod_02_logica_e_algoritmos](https://ricardotecpro.github.io/ads_mod_02_logica_e_algoritmos)
+🔗 **Acesse o curso online**: [https://ricardotecpro.github.io/ads_spec_sistemas_com_cpp](https://ricardotecpro.github.io/ads_spec_sistemas_com_cpp)
 
 ---
 
 ## 🗂️ Estrutura do Curso (16 Aulas)
 
-O curso está dividido em dois grandes módulos:
+O curso está dividido em 4 módulos progressivos:
 
-### 🧠 Módulo 1: Fundamentos da Lógica
-Foco nos conceitos universais, independentes de linguagem.
-*   **Aula 01**: Introdução à Lógica de Programação
-*   **Aula 02**: Ambiente e Ferramentas (VisualG, Scratch, IDEs)
-*   **Aula 03**: Estrutura Sequencial (Variáveis, Entrada/Saída)
-*   **Aula 04**: Estrutura Condicional (Se/Senão, Switch)
-*   **Aula 05**: Estruturas Repetitivas (Para, Enquanto)
-*   **Aula 06**: Estruturas de Dados I (Vetores)
-*   **Aula 07**: Estruturas de Dados II (Matrizes)
-*   **Aula 08**: Modularização (Funções e Procedimentos)
+### 🟢 Módulo 1: Fundamentos
+*   **Aula 01**: Introdução ao C++ e Ecossistema
+*   **Aula 02**: Tipos de Dados, Variáveis e Inicialização {}
+*   **Aula 03**: Operadores, Expressões e Precedência
+*   **Aula 04**: Estruturas de Controle (Decisão e Repetição)
 
-### 🌍 Módulo 2: O Poliglota
-Aplicação da lógica aprendida nas principais linguagens de mercado.
-*   **Aula 09**: Baixo Nível e Performance (C / C++)
-*   **Aula 10**: A Web Moderna (JavaScript / TypeScript)
-*   **Aula 11**: Orientação a Objetos Corporativa (Java)
-*   **Aula 12**: Ecossistema Microsoft (.NET: C# / F#)
-*   **Aula 13**: Data Science e Scripting (Python)
-*   **Aula 14**: Programação de Sistemas Moderna (Rust / Go)
-*   **Aula 15**: Desenvolvimento Mobile (Dart/Flutter e Kotlin)
-*   **Aula 16**: Legado Web e Evolução (PHP) + Projeto Final
+### 🔵 Módulo 2: Estruturas e Memória
+*   **Aula 05**: Modularização com Funções e Protótipos
+*   **Aula 06**: Arrays, Strings e a classe `std::string`
+*   **Aula 07**: Ponteiros, Referências e Alocação Dinâmica
+*   **Aula 08**: Structs e Persistência de Dados em Arquivos
+
+### 🟡 Módulo 3: Orientação a Objetos (POO)
+*   **Aula 09**: Classes, Atributos, Métodos e Encapsulamento
+*   **Aula 10**: Ciclo de Vida: Construtores e Destrutores
+*   **Aula 11**: Herança, Polimorfismo e Funções Virtuais
+*   **Aula 12**: Sobrecarga de Operadores e Friends
+
+### 🔴 Módulo 4: C++ Profissional
+*   **Aula 13**: STL: Containers, Algoritmos e Iteradores
+*   **Aula 14**: Modern Memory Management: Smart Pointers (RAII)
+*   **Aula 15**: Sistemas de Build e Multiplataforma (CMake)
+*   **Aula 16**: Projeto Final de Conclusão de Curso
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas Abordadas
-
-*   **Lógica**: VisualG, Portugol Studio, Scratch.
-*   **Linguagens**: C, C++, Java, C#, Python, JavaScript, TypeScript, Rust, Go, Dart, Kotlin, PHP.
-*   **Frameworks**: Node.js, SpringBoot, Flutter, Laravel.
-*   **IDEs**: VS Code, IntelliJ, PyCharm, Android Studio.
+## 🛠️ Tecnologias e Ferramentas
+*   **Linguagem**: C++20 / C++23.
+*   **Build**: CMake, Make, Ninja.
+*   **Compiladores**: GCC, Clang, MSVC.
+*   **IDE/Editor**: VS Code, CLion, Visual Studio.
+*   **Documentação**: MkDocs + Material.
 
 ## 🚀 Como Executar Localmente
 
@@ -49,20 +51,18 @@ Este projeto utiliza [MkDocs](https://www.mkdocs.org/) com o tema [Material](htt
 
 1.  **Clone o repositório**:
     ```bash
-    git clone https://github.com/ricardotecpro/ads_mod_02_logica_e_algoritmos.git
-    cd ads_mod_02_logica_e_algoritmos
+    git clone https://github.com/ricardotecpro/ads_spec_sistemas_com_cpp.git
+    cd ads_spec_sistemas_com_cpp
     ```
 
-2.  **Instale as dependências** (Requer Python 3.x e Poetry):
+2.  **Instale as dependências** (Requer Python 3.8+):
     ```bash
-    poetry install
+    pip install -r requirements.txt
     ```
 
 3.  **Rode o servidor local**:
     ```bash
-    poetry run task serve
-    # ou
-    python -m mkdocs serve
+    mkdocs serve
     ```
 
 4.  Acesse `http://localhost:8000` no seu navegador.

@@ -1,125 +1,97 @@
 # Sobre o Curso
 
-## 🎓 Git e GitHub - Do Zero ao Profissional
+## 🎓 Linguagem de Programação C++
 
-Este é um curso completo e estruturado de Versionamento de Código com Git e GitHub. Desenvolvido para levar você do básico ao avançado, com uma abordagem prática e focada nas necessidades reais do mercado de desenvolvimento de software.
+Este é um curso completo e estruturado de **C++ Moderno**. Desenvolvido para levar você do básico ao avançado, com uma abordagem prática e focada nas necessidades reais do mercado de sistemas de alta performance, games e engenharia de software.
 
 ## 🎯 Objetivos do Curso
 
 <div class="grid cards" markdown>
 
--   :material-target: **Dominar Git**
+-   :material-target: **Domínio Técnico**
     
     ---
     
-    Aprender os comandos fundamentais, fluxo de trabalho local e como o Git funciona por baixo dos panos.
+    Aprender os segredos da linguagem, desde o funcionamento da memória RAM até os padrões de projeto mais modernos.
 
--   :material-code-braces: **GitHub Profissional**
+-   :material-code-braces: **Código de Elite**
     
     ---
     
-    Utilizar o GitHub não apenas como repositório, mas como plataforma de colaboração, gestão de projetos e portfólio.
+    Escrever código C++ que não é apenas funcional, mas performático, seguro e fácil de manter.
 
--   :material-api: **Colaboração**
+-   :material-api: **Padrões Modernos**
     
     ---
     
-    Trabalhar em equipe utilizando Branches, Pull Requests, Code Reviews e resolvendo conflitos de forma eficiente.
+    Mudar o mindset do "C++ antigo" para as facilidades das versões 17, 20 e 23 da linguagem.
 
--   :material-test-tube: **Boas Práticas**
+-   :material-test-tube: **Engenharia de Software**
     
     ---
     
-    Criar um histórico de commits limpo, escrever mensagens significativas e manter repositórios organizados.
+    Entender o ecossistema profissional: Compiladores, CMake, Testes Unitários e Gestão de Dependências.
 
 </div>
-
-## 📚 O Que Você Vai Aprender
-
-### Módulo 1 – Conceitos Básicos
-- Instalação e configuração do Git
-- Ciclo de vida dos arquivos (Tracked to Committed)
-- Histórico e navegação no tempo
-- Ramificação (Branching) e Fusão (Merging)
-
-### Módulo 2 – Trabalhando com GitHub
-- Repositórios Remotos
-- Sincronização (Push/Pull)
-- Resolução de Conflitos
-- Pull Requests e Code Review
-
-### Módulo 3 – Fluxos e Organização
-- GitHub Flow
-- Issues e Projects (Kanban)
-- Markdown para documentação
-- README profissional
-
-### Módulo 4 – Colaboração e Carreira
-- Forks e contribuição Open Source
-- GitHub Pages para hospedagem
-- Tratamento de erros comuns (Detached HEAD, etc.)
-- Construção de portfólio
 
 ## 🛠️ Metodologia
 
 <div class="grid cards" markdown>
 
--   :material-book-open-variant: **Aulas Teóricas**
+-   :material-book-open-variant: **Aulas Ricas**
     
     ---
     
-    Conteúdo explicativo com exemplos práticos e slides interativos.
+    Conteúdo visual com diagramas Mermaid, exemplos Termynal e slides interativos em Reveal.js.
 
--   :material-code-tags: **Exercícios Práticos**
+-   :material-code-tags: **Exercícios Graduados**
     
     ---
     
-    Listas de exercícios para fixar o conteúdo de cada aula.
+    Desafios divididos em níveis Fácil, Médio e Hard para garantir a fixação.
 
--   :material-rocket-launch: **Projetos Reais**
+-   :material-rocket-launch: **Mini-Projetos**
     
     ---
     
-    Desenvolva projetos práticos aplicando os conceitos aprendidos.
+    Ao final de cada aula você aplica o conhecimento em um pequeno sistema real para seu portfólio.
 
--   :material-head-question: **Quizzes Interativos**
+-   :material-head-question: **Foco em Memória**
     
     ---
     
-    Teste seus conhecimentos com quizzes ao final de cada módulo.
+    Abordagem profunda sobre Stack vs Heap, Ponteiros e RAII para evitar erros comuns.
 
 </div>
 
 ## 👨‍🎓 Para Quem é Este Curso
 
-- **Iniciantes** que nunca usaram controle de versão
-- **Desenvolvedores** que usam Git apenas no básico ("add, commit, push")
-- **Estudantes** que precisam organizar seus trabalhos acadêmicos
-- **Profissionais** que querem melhorar seu fluxo de trabalho em equipe
+- **Estudantes de ADS e Ciência da Computação** que buscam se destacar.
+- **Desenvolvedores** de outras linguagens interessados em baixo nível e performance.
+- **Entusiastas de Games** que querem aprender a base da Unreal Engine.
+- **Profissionais** que precisam atualizar seus conhecimentos para o C++ Moderno.
 
 ## 📋 Pré-requisitos
 
-- Computador com Windows, Linux ou macOS
-- Instalação do Git (coberta no curso)
-- Conta no GitHub (gratuita)
-- **Não é necessário conhecimento prévio de programação!**
+- Lógica de Programação básica (recomendado, mas não obrigatório).
+- Computador com Windows, Linux ou macOS.
+- Disposição para enfrentar erros de compilação (eles serão seus melhores professores).
 
 ## 🎖️ O Que Você Receberá
 
-- ✅ 16 aulas completas e estruturadas
-- ✅ Slides interativos para todas as aulas
-- ✅ Exercícios práticos com soluções
-- ✅ Projetos reais para portfólio
-- ✅ Quizzes para autoavaliação
-- ✅ Guias de configuração de ambiente
+- ✅ 16 aulas completas e atualizadas.
+- ✅ Slides interativos em todas as aulas.
+- ✅ 80 exercícios práticos.
+- ✅ 16 mini-projetos para portfólio.
+- ✅ 160 questões de quiz com explicações.
 
 ## 🚀 Comece Agora
 
-Pronto para dominar o Git?
+Pronto para dominar a linguagem que move o mundo?
 
 [:material-rocket: Ir para Aula 01](aulas/aula-01.md){ .md-button .md-button--primary }
 [:material-cog: Configurar Ambiente](setups/index.md){ .md-button }
 
 ---
 
-**Dúvidas?** Entre em contato ou acesse a [documentação completa](materiais.md).
+**Dúvidas?** Entre em contato ou acesse a [documentação de materiais](materiais.md).
